@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 import cpr.name.videoenabledwebview.R;
 
@@ -75,7 +76,7 @@ public class ExampleActivity extends ActionBarActivity
         webView.setWebViewClient(new InsideWebViewClient());
         
         // Navigate anywhere you want, but consider that this classes have only been tested on YouTube's mobile site
-        webView.loadUrl("http://m.youtube.com");
+        webView.loadUrl("http://a.eqxiu.com/s/ofkGf9TW?eqrcode=1&from=singlemessage&isappinstalled=0");
 
     }
 
